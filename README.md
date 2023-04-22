@@ -5,10 +5,8 @@ cls
 set masm64=C:\masm64
 cd "$(CURRENT_DIRECTORY)"
 cmd /c if exist errors.txt del errors.txt
-cmd /c if exist 
-(NAME_PART).obj
-cmd /c if exist 
-(NAME_PART).exe
+cmd /c if exist $(NAME_PART).obj del $(NAME_PART).obj
+cmd /c if exist $(NAME_PART).exe del $(NAME_PART).exe
 //compile $(masm64)\bin\ml64 >> errors.txt ...
 if $(EXITCODE) !=0 goto exit
 // link $(masm64)\bin\link ...
