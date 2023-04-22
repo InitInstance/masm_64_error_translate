@@ -1,3 +1,5 @@
+Translate errors from masm64 compiler onto Russian language
+
 example for NppExec
 
 ```
