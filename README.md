@@ -18,4 +18,4 @@ cmd /c del $(NAME_PART).obj
 exit
 :exit
 cmd /c $(masm64)\bin64\masm_64_error_translate.exe errors.txt
-con_loadfrom errors.txt
+con_loadfrom errors.txt 
