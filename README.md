@@ -4,6 +4,7 @@ example for NppExec
 
 cls
 set masm64=C:\masm64
+
 cd "$(CURRENT_DIRECTORY)"
 cmd /c if exist errors.txt del errors.txt
 cmd /c if exist $(NAME_PART).obj del $(NAME_PART).obj
