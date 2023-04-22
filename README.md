@@ -1,7 +1,6 @@
 # masm_64_error_translate
 
 example for NppExec
-
 cls
 
 set masm64=C:\masm64
