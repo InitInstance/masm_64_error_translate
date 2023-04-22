@@ -3,6 +3,7 @@
 example for NppExec
 
 cls
+
 set masm64=C:\masm64
 
 cd "$(CURRENT_DIRECTORY)"
