@@ -1,8 +1,8 @@
 # masm_64_error_translate
 
 example for NppExec
-cls
 
+cls
 set masm64=C:\masm64
 
 cd "$(CURRENT_DIRECTORY)"
